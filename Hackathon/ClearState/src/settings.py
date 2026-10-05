@@ -1,0 +1,33 @@
+from pathlib import Path
+
+CLEARSTATE_DIR = Path(__file__).resolve().parents[1]
+HACKATHON_DIR = CLEARSTATE_DIR.parent
+LOCKED_APPS_FILE = CLEARSTATE_DIR / "locked_apps.txt"
+PRESAGE_STATE_FILE = CLEARSTATE_DIR / "presage_main_run.txt"
+APP_MONITOR_SCRIPT = HACKATHON_DIR / "Script Tests" / "app_monitor.py"
+   
+SCREEN_HEIGHT = 768
+SCREEN_WIDTH = 1024
+FPS = 60
+
+# Colors
+WHITE = (255, 255, 255)
+BLACK = (0, 0, 0)
+DARK_GRAY = (50, 50, 50)
+DARK_BLUE = (0, 0, 139)
+BLUE = (0, 0, 255)
+RED = (255, 0, 0)
+GREEN = (0, 255, 0)
+LIGHT_GRAY = (200, 200, 200)
+LIGHT_BLUE = (173, 216, 230)
+LIGHT_GREEN = (144, 238, 144)
+LIGHT_RED = (255, 182, 193)
+ORANGE = (255, 165, 0)
+YELLOW = (255, 255, 0)
+DARK_ORANGE = (255, 140, 0)
+DARK_YELLOW = (204, 204, 0)
+DARK_GREEN = (0, 100, 0)
+DARK_RED = (139, 0, 0)
+PINK = (255, 192, 203)
+PURPLE = (128, 0, 128)
+BROWN = (139, 69, 19)

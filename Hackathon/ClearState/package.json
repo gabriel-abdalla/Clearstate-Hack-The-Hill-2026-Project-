@@ -1,0 +1,11 @@
+{
+  "name": "presage-python-bridge-test",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node presage_bridge.mjs --check"
+  },
+  "dependencies": {
+    "@smartspectra/node-sdk": "3.3.0"
+  }
+}
